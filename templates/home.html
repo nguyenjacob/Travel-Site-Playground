@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block head %}
+  <style>
+		html {
+			scroll-behavior: smooth;
+		}
+
+		#hero-header {
+			background-image: url("https://wallpapercave.com/wp/wp4064795.jpg");
+			height: 100vh;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+    .btn1 {
+    display: inline-block;
+    padding: 10px 30px;
+    background: var(--primary-color);
+    color: #f9989f;
+    border-radius: 5px;
+    border: solid #f9989f 1px;
+    margin-top: 25px;
+    opacity: 0.4;
+    }
+		.hero-text {
+			text-align: center;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: white;
+      
+  </style>
+  <title> Home </title>
+{% endblock %}
+
+{% block style %}
+<div id="hero-header">
+  <div class="hero-text">
+    <h1 style="font-size:50px, background-color:rgba(255, 99, 71, 0.5);">Travel Website</h1>
+    <p>Monkey <span class="highlight">Men</span></p>
+  </div>
+</div>
+{% endblock %}

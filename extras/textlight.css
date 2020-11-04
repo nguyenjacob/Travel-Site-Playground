@@ -1,0 +1,14 @@
+		.hero-text {
+			text-align: center;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: white;
+		}
+    .highlight {
+      background-image: linear-gradiant(to right, 
+      #f9989f, #fccb8f, #faf096);
+      border-radius: 6px;
+      padding: 3px, 6px;
+    }

@@ -24,6 +24,11 @@ def flask_route():
 def playlist_route():
   return render_template("resturant.html", projects=data.setup())
 
+@app.route('/videos/')
+def video_route():
+  return render_template("video.html", projects=data.setup())
+
+
 if __name__ == "__main__":
   #runs the application on the repl development server
   app.run(port='3000', host='0.0.0.0')
